@@ -1,0 +1,24 @@
+import { ItemQuality, ItemType, Resource } from '../../../types/index.ts';
+
+export const TU_GIAI_VAT_LIEU: { [key: string]: Resource } = {
+    'thai_at_bach_kim': { id: 'thai_at_bach_kim', name: 'Thái Ất Bạch Kim', description: 'Kim loại tiên gia, ẩn chứa tiên khí thuần khiết, là vật liệu luyện khí đỉnh cao.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 800 },
+    'tu_tieu_than_thiet': { id: 'tu_tieu_than_thiet', name: 'Tử Tiêu Thần Thiết', description: 'Kim loại được sấm sét thiên kiếp tôi luyện, có khả năng dẫn động lôi điện.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 850 },
+    'minh_uyen_han_thiet': { id: 'minh_uyen_han_thiet', name: 'Minh Uyên Hàn Thiết', description: 'Kim loại sinh ra từ nơi sâu nhất của Minh Uyên, mang theo hàn khí tuyệt đối.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 820 },
+    'lac_duong_huyet_tinh': { id: 'lac_duong_huyet_tinh', name: 'Lạc Dương Huyết Tinh', description: 'Tinh thạch ngưng tụ từ máu của thần thú khi mặt trời lặn, chứa đựng sức mạnh của huyết và hỏa.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 900 },
+    'ngan_quang_huyen_thiet': { id: 'ngan_quang_huyen_thiet', name: 'Ngân Quang Huyền Thiết', description: 'Kim loại bạc phát ra ánh sáng dịu nhẹ, cực kỳ dẻo dai và có khả năng dẫn linh lực tốt.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 750 },
+    'liet_van_phong_thiet': { id: 'liet_van_phong_thiet', name: 'Liệt Vân Phong Thiết', description: 'Kim loại nhẹ như lông hồng, có thể xé rách mây trời, chuyên dùng để luyện chế pháp bảo tốc độ.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 780 },
+    'hau_tho_huyen_tinh': { id: 'hau_tho_huyen_tinh', name: 'Hậu Thổ Huyền Tinh', description: 'Tinh túy của đại địa, nặng vô cùng, mang theo sức mạnh phòng ngự và kết nối với mặt đất.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 800 },
+    'huyen_cuong_thach': { id: 'huyen_cuong_thach', name: 'Huyền Cương Thạch', description: 'Loại đá cứng rắn nhất thế gian, dùng để tăng cường độ bền cho pháp bảo.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 720 },
+    'hac_dieu_bao_ngoc': { id: 'hac_dieu_bao_ngoc', name: 'Hắc Diệu Bảo Ngọc', description: 'Ngọc thạch màu đen tuyền, có khả năng hấp thụ ánh sáng và linh khí.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 880 },
+    'tham_hai_o_kim': { id: 'tham_hai_o_kim', name: 'Thâm Hải Ô Kim', description: 'Kim loại được tìm thấy dưới đáy biển sâu, chịu được áp lực cực lớn.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 760 },
+    'tu_kim_khoang': { id: 'tu_kim_khoang', name: 'Tử Kim Khoáng', description: 'Khoáng thạch màu tím vàng, mang theo khí thế đế vương.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 790 },
+    // Yêu Liệu
+    'yeu_cot_thanh_long_tu_giai': { id: 'yeu_cot_thanh_long_tu_giai', name: 'Yêu Cốt (Thánh Long) Tứ Giai', description: 'Xương cốt của một con rồng thánh, chứa đựng long uy và sức mạnh vô song.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 1200 },
+    'yeu_cot_thanh_ho_tu_giai': { id: 'yeu_cot_thanh_ho_tu_giai', name: 'Yêu Cốt (Thánh Hổ) Tứ Giai', description: 'Xương cốt của hổ yêu thánh, mang theo sát khí và sức mạnh của chúa sơn lâm.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 1100 },
+    'yeu_hon_tu_giai': { id: 'yeu_hon_tu_giai', name: 'Yêu Hồn Tứ Giai', description: 'Linh hồn của một Yêu Vương Tứ Giai, dùng để luyện chế các pháp bảo tà dị.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 1000 },
+    'yeu_cot_thon_phe_thu_tu_giai': { id: 'yeu_cot_thon_phe_thu_tu_giai', name: 'Yêu Cốt (Thôn Phệ Thú) Tứ Giai', description: 'Xương cốt của Thôn Phệ Thú, có khả năng hấp thụ và phân giải năng lượng.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 1150 },
+    'yeu_lan_huyen_vu_tu_giai': { id: 'yeu_lan_huyen_vu_tu_giai', name: 'Yêu Lân (Huyền Vũ) Tứ Giai', description: 'Vảy của thần thú Huyền Vũ, phòng ngự vật lý gần như tuyệt đối.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 1300 },
+    'yeu_bi_cong_sinh_thu_tu_giai': { id: 'yeu_bi_cong_sinh_thu_tu_giai', name: 'Yêu Bì (Cộng Sinh Thú) Tứ Giai', description: 'Lớp da sống có ý thức riêng, có thể cộng sinh với chủ nhân.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 1100 },
+    'yeu_cot_tu_la_vuong_tu_giai': { id: 'yeu_cot_tu_la_vuong_tu_giai', name: 'Yêu Cốt (Tu La Vương) Tứ Giai', description: 'Xương cốt của Tu La Vương, mang theo sát khí ngút trời.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 1250 },
+    'yeu_cot_thuong_co_ma_long_tu_giai': { id: 'yeu_cot_thuong_co_ma_long_tu_giai', name: 'Yêu Cốt (Thượng Cổ Ma Long) Tứ Giai', description: 'Xương sọ của một con Ma Long thượng cổ, ẩn chứa sức mạnh của Long Ngữ Ma Pháp.', quality: ItemQuality.TU_GIAI, type: ItemType.MATERIAL, value: 1500 },
+};
