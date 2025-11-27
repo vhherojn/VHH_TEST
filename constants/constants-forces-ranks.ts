@@ -1,5 +1,5 @@
 
-import { CultivationStage, ForceRank } from '../../types/index.ts';
+import { CultivationStage, ForceRank } from '../types/index.ts';
 
 export interface ForceRankData {
     name: string;
